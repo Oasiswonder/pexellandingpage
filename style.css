@@ -1,0 +1,106 @@
+*html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.container {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/wyxina-tresse-EFyoaDW2jGQ-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+}
+
+.navbar {
+    display: grid;
+    padding: 0.5rem 0;
+    width: 100%;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.container .navbar ul li {
+    display: inline;
+    flex-direction: column;
+    margin: 0 3rem;
+    font-size: 0.5rem;
+    margin-left: .5rem;
+    padding-right: 2rem;
+    
+}
+
+.container .navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+    align-items: center;
+}
+p{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    width: 47%;
+    margin-left: 30rem;
+    padding-top: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+input {
+    background-color: white;
+    border-radius: 4px;
+    border-style: none;
+    width: 45rem;
+    height: 3rem;
+    margin-left: 35rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.button{
+    margin-top: 3rem;
+    margin-left: 40rem;
+
+}
+.home {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding: 1rem;
+    
+}
+.videos {
+    border: none;
+    background-color: white;
+    font-size: 1.5rem;
+    color: rgba(29, 28, 28, 0.877);
+}
+.leaderboard {
+    border: none;
+    background-color: white;
+    font-size: 1.5rem;
+    color: rgba(29, 28, 28, 0.877);
+}
+.challenges {
+    border: none;
+    background-color: white;
+    font-size: 1.5rem;
+    color: rgba(29, 28, 28, 0.877);
+}
